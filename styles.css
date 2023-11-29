@@ -2,11 +2,11 @@ body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
-    background-color: #f4f4f4;
+    background-color: #dbb435;
 }
 
 header {
-    background-color: #333;
+    background-color: #35c0db;
     color: #fff;
     text-align: center;
     padding: 1em 0;
@@ -20,8 +20,8 @@ section {
 }
 
 footer {
-    background-color: #333;
-    color: #fff;
+    background-color: #35c0db;
+    color: #dbb435;
     text-align: center;
     padding: 1em 0;
 }
