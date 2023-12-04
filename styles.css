@@ -24,4 +24,7 @@ footer {
     color: #cf5b93;
     text-align: left;
     padding: 1em 0;
+	a {
+		color; #ffedf6
+	}
 }
