@@ -1,0 +1,21 @@
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    margin: 0;
+}
+
+main {
+    flex: 1;
+	background-color: #6b8496;
+	color: #07385c;
+}
+
+footer {
+    background-color: #610957;
+    color: #cca1c7;
+    padding: 10px;
+}
+a {
+		color: #6b8496
+	}
