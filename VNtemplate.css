@@ -1,0 +1,30 @@
+body {
+	display: flex;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #fff;
+}
+
+illustration {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: ##ffbe78;
+}
+
+dialogue {
+	
+	
+	
+}
+
+footer {
+    background-color: #cf5b93;
+    color: #000000;
+    text-align: left;
+    padding: 1em 0;
+	a {
+		color: #ffedf6
+	}
+}
