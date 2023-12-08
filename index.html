@@ -13,7 +13,23 @@
 	
 	<section id="dialogue">
 		<h2>The Part where Arty Barks</h2>
-		<p>Buncha dialogue goes here<p>
+		<p>Buncha dialogue goes here. And SLOWLY, hopefully. ChatGPT said this would let me have the text scroll in but it's Javascript and that's some wizard shit so idk if it's gonna work, lmfao.<p>
+		<script>
+        // JavaScript code for the typing effect
+        const dialogueElement = document.getElementById('dialogue');
+        const textToType = "Hello, this is a typing effect!";
+
+        function typeText(index) {
+            if (index < textToType.length) {
+                dialogueElement.textContent += textToType.charAt(index);
+                index++;
+                setTimeout(() => typeText(index), 100); // Adjust the delay (in milliseconds) between characters
+            }
+        }
+		// Start the typing effect when the page loads
+        typeText(0);
+		</script>
+		
 	</section>
 	
 	<section id="whitegap">
