@@ -5,7 +5,7 @@ body {
     padding: 0;
     background-color: #fff;
 	flex-direction: column;
-    min-height: 100vh;
+    min-height: 80vh;
 }
 
 illustration {
@@ -24,10 +24,20 @@ section#dialogue {
 	background-color: #fdc7ff;
     padding: 20px;
     border-radius: 5px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+    box-shadow: 0 0 15px rgba(0, 0, 0, 1);
     text-align: center;
-	width: 80%; 
+	width: 80%;
+	height: 160px;
     margin: 0 auto;
+}
+
+.dialogue h2 {
+	font-size: 30px;
+}
+
+.dialogue p {
+    font-size: 18px;
+    overflow: hidden; /* Hide overflow to prevent text from showing initially */
 }
 
 section#whitegap {
